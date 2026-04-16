@@ -1,0 +1,37 @@
+@media(min-width: 500px){
+ nav>a:hover{color: red;}
+    main{background-color: #ffc5bd;}
+    header{background-color: #e892b2;}
+    header{font-size: 25pt; color: black;}
+    .story>h2{background-color: #e892b2;}
+    h1, h2, .links{font-family: "Caprasimo", serif;}
+    p, .story>nav{font-family: "Charis SIL", serif;}
+    main img{width: 504.2847px; height: 531.8696px;}
+    .hello, .work, .school{font-size: 16pt;}
+    header>img{width: 283.9125px; height: 252.8986px; align-content: center; justify-content: center;}
+   main>img{display: block; margin: auto;}
+    header, .hello, .work, .school{text-align: center;}
+    .story>nav{display: flex; flex-direction: column;}
+    .story{font-size: 26pt;}
+    .reach>h2{font-size: 21pt;}
+    .reach>p{font-size: 16pt}
+ }
+@media (min-width:1630px){
+    header, .hello, .work, .school{text-align: left;}
+    h1, .story>h2, .links{font-family: "Caprasimo", serif;}
+    .story>h2{margin: 0; padding: 1rem;}
+    p, .story>nav{font-family: "Charis SIL", serif;}
+    .story>nav{padding: 1rem}
+    .home{display:grid;grid-template-columns: 1fr 2fr;}
+    main>img{display: grid;grid-area: 1/4/4/5;}
+    .hello{grid-area: 1/1/2/4;}
+    .school{grid-area: 2/1/3/4;}
+    .work{grid-area: 3/1/4/4;}
+    .reach{grid-area:4/1/5/4}
+    .story{width: 50%; display: inline-flex;}
+    .art{display: flex;}
+    main>img{width: 600px; height: 630px;}
+    header{display:grid;grid-template-columns: 1fr 2fr;}
+    header>nav{align-content: space-evenly; align-text: right; display: block; margin: auto;}
+    .under, .line{font-family: underline;}
+}
